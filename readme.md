@@ -1,15 +1,30 @@
-Description
-This Python project uses machine learning models and techniques to analyze and predict the possibility of stroke based on various health factors.
-The notebook preprocesses the data, modifying categories and groupings for more effective analysis. The processed data is then used to generate a variety of visualizations, including distribution plots, bar charts, and Kernel Density Estimation (KDE) plots.
+# Stroke Prediction Project
 
-How to run the code
-Ensure that you have the necessary Python environment and libraries installed. The libraries used in the script include:
-Numpy
-Matplotlib
-Seaborn
-sklearn
-pandas
-LightGBM
-XGBoost
+This project involves using a collection of Python scripts to analyze and model stroke prediction data.
 
-Place your data files in the same directory as your notebook, or modify the file paths in the load_data() function to match your file locations, and run the notebook.
+## Description
+
+This repository includes a Python script that handles a variety of tasks associated with stroke prediction. The script imports necessary libraries, loads datasets, preprocesses data, visualizes data, and uses multiple machine learning models (Random Forest, LGBM, XGBoost) for predictions.
+
+## How to Run the Script
+
+1. Ensure you have all the required libraries installed. These include:
+
+   - numpy
+   - matplotlib
+   - seaborn
+   - sklearn
+   - lightgbm
+   - xgboost
+   - pandas
+   
+2. Load the required datasets. The script expects two datasets:
+
+   - A training dataset ('./playground-series-s3e2/train.csv')
+   - A test dataset ('./playground-series-s3e2/test.csv')
+   - A real world dataset ('./healthcare-dataset-stroke-data.csv')
+   
+3. Run the Python script. You can do this in a Python environment or Jupyter notebook. The script will load the data, preprocess it, perform exploratory data analysis, and then apply and evaluate several machine learning models.
+
+Please note that this project requires a Python 3.7 (or later) environment with the aforementioned packages installed. You can install any missing packages using pip:
+
