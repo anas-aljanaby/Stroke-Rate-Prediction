@@ -26,5 +26,3 @@ This repository includes a Python script that handles a variety of tasks associa
    
 3. Run the Python script. You can do this in a Python environment or Jupyter notebook. The script will load the data, preprocess it, perform exploratory data analysis, and then apply and evaluate several machine learning models.
 
-Please note that this project requires a Python 3.7 (or later) environment with the aforementioned packages installed. You can install any missing packages using pip:
-
